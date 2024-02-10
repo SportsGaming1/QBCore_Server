@@ -451,6 +451,7 @@ exports('HasItem', HasItem)
 ---@param data any
 local function CreateUsableItem(itemName, data)
 	QBCore.Functions.CreateUseableItem(itemName, data)
+	
 end
 
 exports('CreateUsableItem', CreateUsableItem)
@@ -2400,6 +2401,10 @@ QBCore.Commands.Add('giveitem', 'Give An Item (Admin Only)', { { name = 'id', he
 				info.lab = exports['qb-methlab']:GenerateRandomLab()
 			elseif itemData['name'] == 'printerdocument' then
 				info.url = 'https://cdn.discordapp.com/attachments/870094209783308299/870104331142189126/Logo_-_Display_Picture_-_Stylized_-_Red.png'
+			elseif itemData["name"] == "syphoningkit" then
+				info.gasamount = 0
+			elseif itemData["name"] == "jerrycan" then
+				info.gasamount = 0
 			end
 
 			if AddItem(id, itemData['name'], amount, false, info) then

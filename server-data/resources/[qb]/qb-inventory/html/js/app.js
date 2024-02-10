@@ -381,6 +381,18 @@ function generateDescription(itemData) {
             } else if (itemData.info.type == "dna") {
                 return `<p><strong>Evidence material: </strong><span>${itemData.info.label}</span></p>
                 <p><strong>DNA Code: </strong><span>${itemData.info.dnalabel}</span></p><br /><p>${itemData.description}</p>`;
+            } else if (itemData.name == "syphoningkit") { // Syphoning Kit (CDN-Fuel or CDN-Syphoning!)
+                $(".item-info-title").html("<p>" + itemData.label + "</p>");
+                $(".item-info-description").html(
+                    "<p>" + "A kit used to syphon gasoline from vehicles! <br><br>" + itemData.info.gasamount + " Liters Inside.</p>" +
+                    "</span></p><p style=\"padding-top: .8vh;font-size:11px\"><b>Weight: </b>" + ((itemData.weight * itemData.amount) / 1000).toFixed(1) + " | <b>Amount: </b> " + itemData.amount
+                );
+            } else if (itemData.name == "jerrycan") { // Jerry Can (CDN-Fuel!)
+                $(".item-info-title").html("<p>" + itemData.label + "</p>");
+                $(".item-info-description").html(
+                    "<p>" + "A Jerry Can, designed to hold fuel! <br><br>" + itemData.info.gasamount + " Liters Inside.</p>" +
+                    "</span></p><p style=\"padding-top: .8vh;font-size:11px\"><b>Weight: </b>" + ((itemData.weight * itemData.amount) / 1000).toFixed(1) + " | <b>Amount: </b> " + itemData.amount
+                );
             }
         case "stickynote":
             return `<p>${itemData.info.label}</p>`;
