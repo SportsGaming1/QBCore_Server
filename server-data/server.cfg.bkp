@@ -40,7 +40,7 @@ setr voice_syncData 1
 setr qb_locale "en"
 
 # QBCore UseTarget
-setr UseTarget false
+setr UseTarget true
 
 # These resources will start by default.
 ensure mapmanager
@@ -51,16 +51,22 @@ ensure basic-gamemode
 ensure hardcap
 ensure baseevents
 
+setr fivem-appearance:locale "en"
+setr fivem-appearance:automaticFade 1
+ensure fivem-appearance
+
 # QBCore & Extra stuff
 ensure qb-core
+ensure ox_lib
 ensure [qb]
 ensure [standalone]
 ensure [voice]
 ensure [defaultmaps]
+ensure [project-sloth]
 
 ## Permissions ##
 add_ace group.admin command allow # allow all commands
-add_principal identifier.fivem:9223845 group.admin #Sports_Gaming
+add_principal identifier.fivem:9223845 qbcore.god #Sports_Gaming
 
 # Resources
 add_ace resource.qb-core command allow # Allow qb-core to execute commands
