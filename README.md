@@ -13,6 +13,7 @@ Basic QBCore Server with some other scripts included
 - A new Dispatch system for police
 - A redesigned Character Selector
 - A redesigned Character Spawner
+- A redesigned clothing menu
 
 ## Screenshots of features
 ![Redesign of HUD](https://cdn.discordapp.com/attachments/752250937141362778/1205663331164225577/Screenshot_2024-02-09_235321.png?ex=65d9307a&is=65c6bb7a&hm=0fb417b7f755f72f61eb8a1d854aec62776ec3b9e6f06e836955940fe39d74e2&)
@@ -25,4 +26,5 @@ Basic QBCore Server with some other scripts included
 ![New Dispatch for police](https://cdn.discordapp.com/attachments/752250937141362778/1205834022903611412/Screenshot_2024-02-10_110248.png?ex=65d9cf72&is=65c75a72&hm=52b512134cdfb4ab76bde24dbb880a2cfb8e46490d9886a33a34d40c295976aa&)
 ![Redesign of Character Selector](https://cdn.discordapp.com/attachments/810580508781707324/1205857467427332156/image.png?ex=65d9e547&is=65c77047&hm=28d214dd96edb0913023a84ef6129b41c0bc09943bff7009512613c602964333&)
 ![Redesign of Character Spawner](https://cdn.discordapp.com/attachments/810580508781707324/1205869156013178942/image.png?ex=65d9f02a&is=65c77b2a&hm=06e3e6cf17a43ececd8c62cf8a2b146797689eb8d3eb9271e60032e441753768&)
+![Redesign of Clothing menu](https://cdn.discordapp.com/attachments/810580508781707324/1205872016058617866/image.png?ex=65d9f2d4&is=65c77dd4&hm=f18f5b1d27beaae5b7af398576bf2678dea159b1af632a6e3cbd1e42adfb027c&)
 
